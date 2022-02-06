@@ -1,0 +1,23 @@
+body{
+     background: linear-gradient(
+          to right,silver,white,gray
+     );
+     font-family: cursive;
+}
+
+.container{
+     max-width: 900px;
+     margin: 0 auto;
+}
+h1{
+     text-align: center;
+}
+p{
+     text-align: justify;
+     font-size: 17px;
+}
+.video{
+     display: flex;
+     justify-content: center;
+     margin: 100px 0;
+}
