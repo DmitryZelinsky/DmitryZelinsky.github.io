@@ -1,0 +1,60 @@
+.box{
+     width: 500px;
+     height: 250px;
+     background: linear-gradient(
+          to right, red,purple,blue
+     );
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 80px auto;
+     font-style: 20px;
+     font-family: cursive;
+     transition: 0.4s ease;
+}
+.anim_1:hover{
+     box-shadow: inset 0 0 0 35px blue;
+}
+
+.anim_2{
+     opacity: 0.7;
+}
+
+.anim_2:hover{
+     opacity: 1;
+}
+
+.anim_3:hover{
+     transform: scale(1.4);
+}
+
+.anim_4{ 
+     width: 200px;
+     height: 200px;
+}
+
+.anim_4:hover{
+     border-radius: 50%;
+}
+
+.anim_5{  
+     transition: 0.7s ease;
+}
+
+.anim_5:hover{ 
+     transform:rotate(30deg) scale(1.4)
+}
+
+.anim_6{
+     animation-name: rolling;
+     animation-duration: 2.5s;
+     animation-iteration-count: infinite;
+     animation-timing-function: ease-in-out;
+}
+
+@keyframes rolling{
+     50%{transform:rotate(360deg) }
+     100%{transform:rotate(720deg) }
+}
+     
