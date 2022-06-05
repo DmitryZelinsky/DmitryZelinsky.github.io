@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background: url(стіна.jpg);
+    background-attachment: fixed;
+}
+.container1{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.border-text{
+    text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+}
+.container1 a{
+    color: rgb(212, 211, 211);
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    background: #292420;
+    color: white;
+}
+.menu_link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    margin: 0 10px;
+    color: white;
+}
+.menu_link img{
+    height: 46px;
+    margin-right: 10px;
+}
+
+main{
+    min-height: 50vh;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    background: black;
+    padding: 100px 6vw;
+    box-sizing: border-box;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+.menu_box a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 15px 0;
+    font-size: 1.4rem
+}
+.footer_rights h2{
+    font-size: 2.2rem;
+    margin-top: 5px;
+}
+.footer_contacts{
+    font-size: 1.4rem;
+}
+.footer_contacts a{
+    text-decoration: none;
+    color: white;
+}
