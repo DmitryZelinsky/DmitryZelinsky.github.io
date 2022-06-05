@@ -1,0 +1,77 @@
+<html>
+
+	<head>
+	
+		<title>Тема 10. Меню</title>
+		
+		<style>
+			body{
+				background-image: url('1.png');
+				background-size: 10%;
+				background-repeat: no-repeat;
+				background-position: 600px 300px;
+				background-attachment: fixed;
+				font-family: 'Merriweather', serif;
+			}
+			h1{ font-size: 3.5rem }
+			
+			#menu{
+				background-color: black;
+				padding: 20px 50px;
+				border-radius: 15px;
+				box-shadow: 0px 0px 22px blue;
+			}
+			
+			#menu>a{
+				text-decoration: none;
+				margin-right: 20px;
+				padding: 7px;
+				border-radius: 6px;
+			}
+			
+			#active{ border: 2px solid white; color: white;}
+			
+			#notActive{border: 2px solid gray; color: gray;}
+			
+			#buy{
+				background: blue;
+				text-decoration: none;
+				color: white;
+				padding: 10px 14px;
+				border-radius: 10px;
+				transition: transform 1s ease;
+				hover {transform: scale(1.1);}
+			}
+			
+			img{
+				transition: transform 1s ease;
+			}
+			p>img:hover{
+				transform: scale(1.1);
+				
+			}
+			
+		</style>
+		
+	</head>
+	
+	<body>
+	
+		<p id="menu">
+			<a href="z1.html" id="active">IPHONE 11 pro</a>
+			<a href="z2.html" id="notActive">IPAD</a>
+			<a href="z3.html" id="notActive">Apple watch 7</a>
+			<a href="z3.html" id="notActive">MacBook Pro M1</a>
+		
+		</p>
+		
+		<h1 align="center">iPhone 11 PRO</h1>
+		
+		<p>
+			<img src="iphone.png" width="500px" align="center">
+			<a href="" id="buy">Купити за 19,999 грн</a>
+		</p>
+		
+	</body>
+	
+</html>

@@ -1,0 +1,38 @@
+body{
+     margin: 0;
+     padding: 0;
+     font-family: cursive;
+}
+nav{
+     padding: 10px 20px;
+     background: rgb(17, 6, 6);
+}
+nav>a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 1.2rem;
+     margin-right: 20px;
+}
+main,footer{
+     display: flex;
+     flex-wrap: wrap;
+}
+.t-a-c{
+     text-align: center;
+}
+.w-33{
+     min-width: 33.3333%;
+}
+.bg-1{background: rgb(165, 163, 163);}
+.bg-2{background: rgb(221, 221, 213);}
+.bg-3{background: rgb(165, 164, 164);}
+
+.block{
+     min-height: 100vh;
+}
+.block>h2{
+     text-align: center;
+}
+footer{
+     padding: 20px 0;
+}
